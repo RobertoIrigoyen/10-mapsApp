@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import * as mapboxgl from 'mapbox-gl';
-(mapboxgl as any).accessToken = 'pk.eyJ1Ijoia2xlcml0aCIsImEiOiJja3hramV2OWIwbjEwMzFwYzJlZWl6N2g5In0.iKXPpYvo7UPRiiZ-x_lCrw';
+(mapboxgl as any).accessToken = 'pk.eyJ1Ijoicm9iYmluc2hhcnQiLCJhIjoiY2xzOTVidW5iMDBkOTJpbnNhOHl4eXlsbiJ9.G4geM2QiW1i5HRoB97vvCA';
 
 import { MapsRoutingModule } from './maps-routing.module';
 import { MiniMapComponent } from './components/mini-map/mini-map.component';
